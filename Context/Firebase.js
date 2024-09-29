@@ -6,11 +6,13 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: process.env.FIREBASE_KEY,
-  authDomain: "store-37ff0.firebaseapp.com",
-  projectId: "store-37ff0",
-  storageBucket: "store-37ff0.appspot.com",
-  messagingSenderId: "613917496753",
-  appId: "1:613917496753:web:bce05b6c21bbd909ec9990",
+  authDomain: "instant-goodss-bbeef.firebaseapp.com",
+  databaseURL: "https://instant-goodss-bbeef-default-rtdb.firebaseio.com",
+  projectId: "instant-goodss-bbeef",
+  storageBucket: "instant-goodss-bbeef.appspot.com",
+  messagingSenderId: "427164328534",
+  appId: "1:427164328534:web:fd7cf4933f63146e99d1f7",
+  measurementId: "G-0ENLDTZGV5"
 };
 
 // Initialize Firebase
